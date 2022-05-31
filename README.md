@@ -40,6 +40,7 @@
 ## 已知问题
 * 部分驱动为debug版本
 * 主板旁边的PCI如果插入固态转接卡会无法启动，暂未找到方案
+* 最近发现长时间关机后第一次开机时会出现卡住不能正常进系统的情况，第二次重启就好了
 
 ## 感谢
 * https://dortania.github.io/OpenCore-Install-Guide/
