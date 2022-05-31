@@ -8,6 +8,8 @@
 * OpenCore： [0.7.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.8)
 * 机型：iMac20,1
 
+![macOS](macOS.png)
+
 ## 硬件配置
 * 主板：微星B460M迫击炮（无WiFi版） 
 * CPU：英特尔 i5 10400
@@ -36,6 +38,8 @@
 |XHC	|SS04	|0x14D00001	|0x14	|TypeC+Sw	|后置面板USB-C口|
 |XHC	|SS05	|0x14E00002	|0x15	|USB3	    |主板扩展口JUSB3|
 |XHC	|SS06	|0x14F00002	|0x16	|USB3	    |主板扩展口JUSB3|
+
+![USBPorts](OC0.7.8USBPorts.png)
 
 ## 已知问题
 * 部分驱动为debug版本
