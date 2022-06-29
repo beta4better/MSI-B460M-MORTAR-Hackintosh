@@ -1,14 +1,14 @@
-#OC0.7.8
+#OC0.8.2 开发版
 
 # MSI-B460M-MORTAR-Hackintosh
 微星B460M迫击炮黑苹果，个人自用长期更新维护
 
 ## 软件版本
-* macOS： Monterey 12.4
-* OpenCore： [0.7.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.8)
-* 机型：iMac20,1
+* macOS： Ventura DP2 （全新安装，Monterey 升级不成功）
+* OpenCore： [0.8.2](https://github.com/dortania/build-repo/releases/download/OpenCorePkg-e733af2/OpenCore-0.8.2-RELEASE.zip)
+* 机型：MacPro7,1
 
-![macOS](macOS.png)
+～～![macOS](macOS.png)～～
 
 ## 硬件配置
 * 主板：微星B460M迫击炮（无WiFi版） 
@@ -16,7 +16,7 @@
 * GPU：核显 UHD 630 + RX460
 * 网卡：板载网卡 Realtek® RTL8125B 2.5G LAN
 * 声卡：板载声卡 Realtek® ALC1200
-* 硬盘：M.2 256GB （系统盘）+ SATA固态1TB用于照片存储
+* 硬盘：M.2 512GB （系统盘）+ SATA固态1TB用于照片存储
 * 内存：32G
 * 机箱：德商德静界 SILENTBASE 801 （好大个）
 
@@ -42,9 +42,9 @@
 ![USBPorts](OC0.7.8USBPorts.png)
 
 ## 已知问题
-* 部分驱动为debug版本
+* 目前OC为开发者版本，0.8.2还未正式发布
 * 主板旁边的PCI如果插入固态转接卡会无法启动，暂未找到方案
-* 最近发现长时间关机后第一次开机时会出现卡住不能正常进系统的情况，第二次重启就好了
+* 升级DP2后系统自动休眠后看到了几次不正常关机的提示。
 
 ## 感谢
 * https://dortania.github.io/OpenCore-Install-Guide/
@@ -58,3 +58,4 @@
 * gibMacOS：https://github.com/corpnewt/gibMacOS
 * Hackintool：https://github.com/headkaze/Hackintool
 * USBMap：https://github.com/corpnewt/USBMap
+* OC开发版：https://dortania.github.io/builds/?product=OpenCorePkg&viewall=true
