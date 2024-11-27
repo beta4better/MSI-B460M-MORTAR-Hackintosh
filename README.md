@@ -1,11 +1,13 @@
 #OC0.7.8
 
 # MSI-B460M-MORTAR-Hackintosh
-微星B460M迫击炮黑苹果，个人自用长期更新维护
+微星B460M迫击炮黑苹果，这块板子目前个人没再使用，换成了Windows系统。
+
+升级降级过几次BIOS，这板子在我手里总有种很奇怪的感觉。升级是因为PCI-E*8 的插槽查PCI-E硬盘的时候出现了一次无法引导系统的情况，以为升级BIOS能解决。但是升级后感觉BIOS有的项目默认值变了，后来又看到说如果用黑苹果不要升级BIOS，升级后会有问题，就给降级回来了。从那之后就出现了之前好用的EFI再次安装系统的时候就死活不能引导的情况。全短时间心血来潮又安装黑苹果的时候误打误撞的用 [H370M](https://github.com/beta4better/GIGABYTE_H370M-DS3H_Hackintosh) 的板子的EFI竟然引导起来了。所以说总感觉这块主板很奇怪，但是往上有很多人都在用这块主板，而且说是黑苹果能接近完美的状态，我是一头雾水。目前1.0.2的两个配置都是基于另一块 [H370M](https://github.com/beta4better/GIGABYTE_H370M-DS3H_Hackintosh) 的板子来的。
 
 ## 软件版本
 * macOS： Monterey 12.4
-* OpenCore： [0.7.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.8)
+* OpenCore：https://github.com/acidanthera/OpenCorePkg
 * 机型：iMac20,1
 
 ![macOS](macOS.png)
